@@ -1,0 +1,25 @@
+{
+  "name": "binaryoperation",
+  "version": "1.0.0",
+  "description": "this is a 3 simple operation binary in array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelsonalejandro/binaryoperation.git"
+  },
+  "keywords": [
+    "binary",
+    "operation",
+    "array",
+    "search"
+  ],
+  "author": "Nelson Ramos",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nelsonalejandro/binaryoperation/issues"
+  },
+  "homepage": "https://github.com/nelsonalejandro/binaryoperation#readme"
+}
