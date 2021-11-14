@@ -1,17 +1,19 @@
 :merman:
 
-# BINARYOPERATION 
+# BINARY OPERATION 
 Esta utilidad le ayudara a obtener menos tiempo de ejecucion en la operacion de arrays de grandes proporciones, implementando algoritmo binario
 
 This package help you to obtain less time to execute operations in a long arrays, this function implement binary algorithm
 
-## Conocimiento Acknowledgements
+## Conocimiento 
+## Acknowledgements
 
  - [Busqueda binaria ¿Como funciona? ](https://es.wikipedia.org/wiki/B%C3%BAsqueda_binaria)
  - [Binary search ¿How to? ](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 
  
-## Como usar  How to use
+## Como usar  
+## How to use
 (el array a procesar necesita estar ordenado de manera ascendiente o descendiente antes de ser procesado)
 
 - "npm i binaryoperation" (instalar paquete)
@@ -25,10 +27,4 @@ This package help you to obtain less time to execute operations in a long arrays
 - "binaryoperation.binaryInsert([1,3,4],2)" (use function,this package constain 4 function(delete,insert,search,split))
 
 
-# binaryoperation
-
-## Acknowledgements
-
- 
-## HOW TO USE
 
