@@ -1,5 +1,6 @@
 :merman:
 
+# OPERACIONES BINARIAS 
 # BINARY OPERATION 
 Esta utilidad le ayudara a obtener menos tiempo de ejecucion en la operacion de arrays de grandes proporciones, implementando algoritmo binario
 
