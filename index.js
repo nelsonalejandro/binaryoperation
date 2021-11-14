@@ -50,6 +50,19 @@ function binaryDelete(Arr, valueToDelete) {
 
     return "No match"
 }
+function binarySearch(Arr, valueToSearch) {
+    var low = 0, high = Arr.length - 1, mid;
+    while (low <= high) {
+        mid = Math.floor((low + high) / 2);
+        if (Arr[mid] == valueToSearch) return mid
+        else if (Arr[low] == valueToSearch) return low
+        else if (Arr[high] == valueToSearch) return high
+        else if (Arr[mid] < valueToSearch) low = mid + 1;
+        else high = mid - 1;
+    }
+
+    return "No match"
+}
 function binaryInsert(Arr, valueToInsert) {
     var low = 0, high = Arr.length - 1, mid;
     while (low <= high) {
@@ -70,6 +83,7 @@ function binaryInsert(Arr, valueToInsert) {
 
 module.exports = {
     binarySplit,
+    binarySearch,
     binaryDelete,
     binaryInsert
 };
