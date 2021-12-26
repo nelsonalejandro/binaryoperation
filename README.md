@@ -20,7 +20,7 @@ El array debe estar ordenado de manera ascendiente o descendiente antes de ser p
 
 - "npm i binaryoperation" (instalar paquete)
 - "const binaryoperation= require('binaryoperation')" (importar package)
-- "binaryoperation.binaryInsert([1,3,4],2)" (llamar a la funcion, este paquete contiene 4 funciones (eleminar,insertar,buscar,cortar))
+- "binaryoperation.binaryInsert([1,3,4],2)" (llamar a la funcion, este paquete contiene 4 funciones (delete,insert,search,split))
 
 The array to process i need to order asc or desc previus to operate
 
